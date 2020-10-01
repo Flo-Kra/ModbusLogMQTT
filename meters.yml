@@ -1,17 +1,26 @@
 meters:
-    - name : Meter Group 1
-      type : SDM120.yml
-      id : 1     # this is the slave address number
-      baudrate : 9600   # Baud
-      bytesize : 8
-      parity : even # none | odd | even
-      stopbits : 1
-      timeout  : 0.5   # seconds
-    - name : Meter Group 2
-      type : SDM630.yml
-      id : 13     # this is the slave address number
-      baudrate : 9600   # Baud
-      bytesize : 8
-      parity : none # none | odd | even
-      stopbits : 1
-      timeout  : 0.5   # seconds
+  - id : 1     # slave address number
+    name : Meter-1
+    type : SDM120
+    baudrate : 9600
+    bytesize : 8
+    parity : even # none | odd | even
+    stopbits : 1
+    timeout  : 0.3   # seconds
+  - id : 2     # slave address number
+    name : Meter-2
+    type : SDM120
+    baudrate : 9600
+    bytesize : 8
+    parity : even # none | odd | even
+    stopbits : 1
+    timeout  : 0.3   # seconds
+  - id: 3     # slave address number
+    name: Meter-3
+    type: SDM120
+    baudrate : 9600
+    bytesize : 8
+    parity : even # none | odd | even
+    stopbits : 1
+    timeout  : 0.3   # seconds
+  

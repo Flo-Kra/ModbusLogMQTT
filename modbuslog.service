@@ -1,0 +1,13 @@
+[Unit]
+Description=ModbusLogger
+StartLimitInterval=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/home/pi/modbuslogger/modbuslog.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target

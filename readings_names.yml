@@ -1,0 +1,42 @@
+voltage:
+  - Voltage__V
+  - Voltage_P1__V
+  - Voltage_P2__V
+  - Voltage_P3__V
+current:
+  - Current__A
+  - Current_P1__A
+  - Current_P2__A
+  - Current_P3__A
+  - Currents_Sum__A
+power:
+  - Power_Active__W
+  - Power_Active_P1__W
+  - Power_Active_P2__W
+  - Power_Active_P3__W
+power_apparent:
+  - Power_Apparent__VA
+  - Power_Apparent_P1__VA
+  - Power_Apparent_P2__VA
+  - Power_Apparent_P3__VA
+power_reactive:
+  - Power_Reactive__VAr
+  - Power_Reactive_P1__VAr
+  - Power_Reactive_P2__VAr
+  - Power_Reactive_P3__VAr
+powerfactor:
+  - PowerFactor
+  - PowerFactor_P1
+  - PowerFactor_P2
+  - PowerFactor_P3
+frequency:
+  - Frequency__Hz
+energy_total: Energy_Total__kWh
+energy_today: Energy_Today__kWh
+energy_yesterday: Energy_Yesterday__kWh
+energy_other:
+  - Energy_Reactive_Total__kvarh
+  - Energy_Active_Import__kWh
+  - Energy_Active_Export__kWh
+  - Energy_Reactive_Import__kvarh
+  - Energy_Reactive_Export__kvarh

@@ -1,0 +1,40 @@
+momentary:
+  #Voltage__V: 
+  #  address: 0x00
+  #  decimals: 0
+  Current__A: 
+    address: 0x06
+    decimals: 2
+  Power_Active__W: 
+    address: 0x0C
+    decimals: 0
+  Power_Apparent__VA: 
+    address: 0x12
+    decimals: 0
+  #Power_Reactive__VAr: 
+  #  address: 0x18
+  #  decimals: 0
+  PowerFactor: 
+    address: 0x1E
+    decimals: 2
+  #Frequency__Hz: 0x46
+energy:
+  #Energy_Active_Import__kWh: 
+  # address: 0x48
+  # decimals: 3
+  #Energy_Active_Export__kWh: 
+  #  address: 0x4A
+  #  decimals: 3
+  #Energy_Reactive_Import__kvarh: 
+  #  address: 0x4C
+  #  decimals: 3
+  #Energy_Reactive_Export__kvarh: 
+  #  address: 0x4E
+  #  decimals: 3
+  Energy_Total__kWh: 
+    address: 0x0156
+    decimals: 3
+  Energy_Reactive_Total__kvarh: 
+    address: 0x0158
+    decimals: 3
+    
